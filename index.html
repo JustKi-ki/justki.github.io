@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>justki.github.io — 我的博客</title>
+  <meta name="description" content="个人博客，示例静态站点，支持搜索、标签和单页文章阅读视图。">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">我的博客</h1>
+      <div class="header-actions">
+        <input id="search" type="search" placeholder="搜索文章、标签或内容…" />
+        <button id="theme-toggle" aria-label="切换主题">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <section class="posts-section">
+      <div class="controls">
+        <div class="tag-filter">标签：<span id="tags"></span></div>
+        <div class="summary" id="summary"></div>
+      </div>
+      <div id="posts" class="posts"></div>
+      <div class="pagination">
+        <button id="prev">上一页</button>
+        <span id="page-info"></span>
+        <button id="next">下一页</button>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="about card">
+        <h3>关于我</h3>
+        <p>欢迎来到我的博客，这里记录学习笔记与随笔。</p>
+      </div>
+      <div class="recent card">
+        <h3>最近文章</h3>
+        <ul id="recent"></ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- 单页文章阅读视图（通过 Hash 路由打开，例如 #post/welcome） -->
+  <div id="post-view" class="post-view hidden" aria-hidden="true">
+    <div class="post-view-inner card">
+      <button id="post-close" class="post-close" aria-label="关闭">✕</button>
+      <article id="post-content"></article>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 我的博客 — 动态主页示例</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

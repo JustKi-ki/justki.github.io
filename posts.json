@@ -1,0 +1,56 @@
+[
+  {
+    "title":"首次发布：搭建我的博客",
+    "date":"2025-12-01",
+    "tags":["开发","笔记"],
+    "excerpt":"记录如何从零搭建一个静态/动态博客主页。",
+    "content":"<p>这是第一篇示例文章的完整内容。你可以在这里写任意 HTML，包括代码块、图片等。</p>",
+    "slug":"welcome",
+    "published": true
+  },
+  {
+    "title":"前端性能优化速记",
+    "date":"2025-11-20",
+    "tags":["前端","性能"],
+    "excerpt":"常见的前端性能优化方法汇总。",
+    "content":"<p>懒加载、缓存策略、减少重排和重绘等技巧。</p>",
+    "slug":"perf-tips",
+    "published": true
+  },
+  {
+    "title":"使用原生 JS 实现文章搜索和分页",
+    "date":"2025-10-10",
+    "tags":["JavaScript","教程"],
+    "excerpt":"演示如何用纯 JS 实现过滤、分页功能。",
+    "content":"<p>示例代码在仓库中，直接用 fetch 加载 JSON 即可。</p>",
+    "slug":"js-search-paging",
+    "published": true
+  },
+  {
+    "title":"Git 使用小技巧",
+    "date":"2025-09-01",
+    "tags":["工具","git"],
+    "excerpt":"几条提升日常效率的 Git 命令。",
+    "content":"<p>例如：`git restore --staged <file>`、`git switch -` 等。</p>",
+    "slug":"git-tricks",
+    "published": true
+  },
+  {
+    "title":"写给新手的 C 语言练习题集",
+    "date":"2025-08-15",
+    "tags":["C","练习"],
+    "excerpt":"整理了一些常见入门题目与解法。",
+    "content":"<p>可在 `ClearningNote` 目录中找到部分练习。</p>",
+    "slug":"c-exercises",
+    "published": true
+  },
+  {
+    "title":"关于网络安全的几点思考",
+    "date":"2025-07-30",
+    "tags":["安全","随笔"],
+    "excerpt":"对当前一般安全实践的个人见解。",
+    "content":"<p>持续学习，注重基础和实践。</p>",
+    "slug":"security-notes",
+    "published": true
+  }
+]
